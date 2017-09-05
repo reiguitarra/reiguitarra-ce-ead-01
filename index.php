@@ -35,7 +35,7 @@
         <tr>
             <td>John Petrucci</td> <td><?php $peso = 100; echo $peso; ?></td> <td><?php $altura = 2; echo  $altura ?> </td> <td>
                 <?php  $imc = $peso / pow($altura,2);  
-                echo number_format($imc,2,'.','');  ?>
+                echo number_format($imc,2,',','');  ?>
                 </td> <td><?php $data = '01/01/1980'; echo $data;?></td><td>
                 <?php
                         $hoje = date('d/m/Y');
